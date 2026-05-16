@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 72" width="460" height="72" role="img" aria-label="MUSYNC">
+  
+  <rect x="0" y="4" width="64" height="64" rx="17" fill="#7C3BED"></rect>
+  <rect x="17" y="19" width="8" height="34" rx="4" fill="#FFFFFF"></rect>
+  <rect x="39" y="26" width="8" height="27" rx="4" fill="#FFFFFF"></rect>
+  <text class="wm" x="84" y="68" fill="#110B1F">MUSYNC</text>
+</svg>
