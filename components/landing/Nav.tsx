@@ -23,7 +23,7 @@ export default function Nav() {
       <nav className={`nav${scrolled ? " scrolled" : ""}`}>
         <div className="wrap nav-inner">
           <a href="#" className="logo" onClick={close}>
-            <span className="logo-mark" />
+            <img src="/favicon.svg" alt="" width={26} height={26} className="logo-img" />
             MUSYNC
           </a>
           <div className="nav-links">

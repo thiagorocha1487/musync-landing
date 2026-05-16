@@ -3,7 +3,7 @@ export default function Footer() {
     <footer>
       <div className="wrap">
         <a href="#" className="logo">
-          <span className="logo-mark" />
+          <img src="/favicon.svg" alt="" width={26} height={26} className="logo-img" />
           MUSYNC
         </a>
         <div className="footer-links">

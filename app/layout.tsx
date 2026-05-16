@@ -59,6 +59,13 @@ export const metadata: Metadata = {
     description: "Um cadastro. Tudo criado na hora.",
     images: ["/og-image.png"],
   },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico" },
+    ],
+    apple: { url: "/touch-icon-512.svg", type: "image/svg+xml" },
+  },
   robots: { index: true, follow: true },
 };
 

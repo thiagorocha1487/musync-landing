@@ -130,6 +130,11 @@ section { position: relative; }
   width: 3px; height: 11px;
   border-radius: 2px;
 }
+.logo-img {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
 .nav-links {
   display: none;
   gap: 32px;
@@ -1185,6 +1190,7 @@ footer .copy { font-size: 12px; color: #6B6276; }
   .logo-mark { width: 24px; height: 24px; border-radius: 6px; }
   .logo-mark::before { left: 6px; top: 5px; width: 3px; height: 13px; }
   .logo-mark::after  { right: 6px; top: 8px; width: 3px; height: 10px; }
+  .logo-img { width: 24px; height: 24px; }
   .nav-cta { padding: 9px 14px; font-size: 12px; }
   .nav-cta .nav-cta-text { display: none; }
   .nav-cta .nav-cta-mobile { display: inline; }
