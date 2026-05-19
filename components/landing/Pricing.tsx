@@ -61,7 +61,7 @@ export default function Pricing() {
               ))}
             </ul>
             <div className="price-limit">1 número de WhatsApp · até 10 eventos/mês</div>
-            <a href="#" className="btn btn-ghost btn-block">Começar com o Essencial →</a>
+            <a href="https://app.musync.com.br/registro?plano=essencial" className="btn btn-ghost btn-block">Começar com o Essencial →</a>
           </div>
 
           {/* Profissional */}
@@ -84,7 +84,7 @@ export default function Pricing() {
               ))}
             </ul>
             <div className="price-limit">Eventos ilimitados · 2 números de WhatsApp</div>
-            <a href="#" className="btn btn-primary btn-block">Começar com o Profissional →</a>
+            <a href="https://app.musync.com.br/registro?plano=profissional" className="btn btn-primary btn-block">Começar com o Profissional →</a>
           </div>
         </div>
 
