@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.png?v=2",
         width: 1200,
         height: 630,
         alt: "MUSYNC — Gestão para Empresas de Música ao Vivo",
@@ -57,14 +57,14 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "MUSYNC — Gestão para Empresas de Música ao Vivo",
     description: "Um cadastro. Tudo criado na hora.",
-    images: ["/og-image.png"],
+    images: ["/og-image.png?v=2"],
   },
   icons: {
     icon: [
       { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/favicon.ico" },
+      { url: "/favicon.ico?v=2", sizes: "any" },
     ],
-    apple: { url: "/touch-icon-512.svg", type: "image/svg+xml" },
+    apple: { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
   },
   robots: { index: true, follow: true },
 };
